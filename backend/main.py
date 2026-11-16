@@ -283,7 +283,7 @@ JSON Schema:
          for model in client.models.list():
              print(model.name)
 
-         model_name = "gemini-flash-latest"
+         model_name = "gemini-3.6-flash"
          logger.info(f"Invoking Gemini Model '{model_name}' for stack recommendation...")
         
          response = client.models.generate_content(
